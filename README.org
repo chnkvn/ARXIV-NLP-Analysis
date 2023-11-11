@@ -1,0 +1,13 @@
+#+TITLE: ARXIV NLP Analysis
+#+AUTHOR: CHAN Kevin
+#+Description: Just a repo to show my technical skills in NLP, on scraped data from arxiv scientific papers.
+#+startup: overview
+
+* COMMENT Tasks
+** Scraping
+Scrap abstracts from arxiv scientific papers.
+** Preprocessing
+** NER ?
+** Text classification
+** topic retrieval
+** RAG
