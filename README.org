@@ -411,7 +411,8 @@ def abstracts(n_abstract:int=100, save=False):
 
 @app.post("/topic", response_model =api_models.TopicModel, tags=['TOPIC_MODELING'])
 def predict_topic(text_input: str= text_input):
-    """Let an text input (abstract expected), return the words topic"""
+    """Let an text input (abstract expected), return its topics (a list of words)
+    If no model is available, we must create before running inference."""
     topic_model = BERTopic.load('data_models/bertopic_') if Path('data_models/bertopic_').is_file() else None
     if not topic_model:
         data = [paper['abstract'] for paper in abstracts(100)['abstracts']]
