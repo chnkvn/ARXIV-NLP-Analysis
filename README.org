@@ -3,6 +3,10 @@
 #+Description: Just a repo to show my technical skills in NLP, on scraped data from arxiv scientific papers.
 #+startup: overview
 
+* Tasks 
+- Scraping
+- Topic prediction
+- RAG
 
 * Scraping
 For this project, I will work with a dataset of scientific papers abstracts from [[https://arxiv.org/][arxiv]].
