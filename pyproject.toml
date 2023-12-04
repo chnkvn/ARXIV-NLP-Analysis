@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A repo to illustrate my NLP technical skills on an arxiv dataset"
 authors = ["Kevin <chan.kevin@outlook.fr>"]
 license = "BSD"
-readme = "README.md"
+readme = "README.org"
 
 [tool.poetry.dependencies]
 python = "^3.11, <3.13"
