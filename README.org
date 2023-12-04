@@ -434,9 +434,9 @@ def run_semantic_search(query="What is skeleton gait used for?", search_type='si
 #+end_src
 
 * Docker
-Run ```docker build -t arxiv .``` to build the image
-Run ```docker run -p 8050:8050 arxiv``` to run the image
-Then go to ```localhost:8050/docs``` to access the API
+Run ``` docker build -t arxiv . ``` to build the image
+Run ``` docker run -p 8050:8050 arxiv ``` to run the image
+Then go to ``` localhost:8050/docs ``` to access the API
 
 NB: sentence-transformer model ("all-MiniLM-L6-v2") will be downloaded at each start of the image.
 This can be avoided by downloading and saving it locally when building the image. I do not make it here to have different model paths in my local computer and in the docker container.
